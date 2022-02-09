@@ -16,7 +16,7 @@ const reducer = (state, action) => {
       return { ...state, contacts: action.payload };
     case "GET_PRODUCT_TO_EDIT":
       return { ...state, contactToEdit: action.payload };
-
+ 
     default:
       return state;
   }
